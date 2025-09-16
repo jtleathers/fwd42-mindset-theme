@@ -185,12 +185,12 @@
 				}
 			},
 			"link": {
-				":hover": {
+				":focus": {
 					"color": {
 						"text": "var(--wp--preset--color--hover)"
 					}
 				},
-				":focus": {
+				":hover": {
 					"color": {
 						"text": "var(--wp--preset--color--hover)"
 					}
@@ -219,11 +219,18 @@
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "footer"
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
 		}
 	],
 	"version": 3,
